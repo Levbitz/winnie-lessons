@@ -20,6 +20,21 @@
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 620px) {
+  .coming_soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: black;
+  }
+}
+
 .content {
   padding: 20px 0px;
 }
@@ -30,6 +45,37 @@
   font-weight: 900;
   line-height: 100px;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 920px) {
+  .content h1 {
+    font-size: 120px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: green;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .content h1 {
+    font-size: 120px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: yellow;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .content h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: red;
+  }
 }
 
 .content p {
